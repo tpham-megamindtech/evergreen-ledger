@@ -1,26 +1,104 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f6faf7;
+  --foreground: #1b2420;
+
+  /* brand: deep forest / pine green */
+  --color-brand-50: #f0f7f2;
+  --color-brand-100: #dbebe0;
+  --color-brand-200: #b8d7c3;
+  --color-brand-300: #8cbc9d;
+  --color-brand-400: #5f9c76;
+  --color-brand-500: #3f7d55;
+  --color-brand-600: #2f6443;
+  --color-brand-700: #275137;
+  --color-brand-800: #21402d;
+  --color-brand-900: #1a3324;
+
+  /* sound: Puget Sound blue, used as accent */
+  --color-sound-50: #eff6f9;
+  --color-sound-100: #d9ecf2;
+  --color-sound-200: #b3d8e5;
+  --color-sound-300: #82bdd0;
+  --color-sound-400: #4f9db8;
+  --color-sound-500: #35809c;
+  --color-sound-600: #2c6780;
+  --color-sound-700: #275469;
+  --color-sound-800: #244758;
+  --color-sound-900: #213c4a;
+
+  /* slate: cool neutral for text and surfaces */
+  --color-slate-50: #f6f7f8;
+  --color-slate-100: #eceef0;
+  --color-slate-200: #d7dbdf;
+  --color-slate-300: #b7bec5;
+  --color-slate-400: #8f9aa3;
+  --color-slate-500: #6f7c87;
+  --color-slate-600: #59646f;
+  --color-slate-700: #49525c;
+  --color-slate-800: #3d444c;
+  --color-slate-900: #262b30;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-heading);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-50: var(--color-brand-50);
+  --color-brand-100: var(--color-brand-100);
+  --color-brand-200: var(--color-brand-200);
+  --color-brand-300: var(--color-brand-300);
+  --color-brand-400: var(--color-brand-400);
+  --color-brand-500: var(--color-brand-500);
+  --color-brand-600: var(--color-brand-600);
+  --color-brand-700: var(--color-brand-700);
+  --color-brand-800: var(--color-brand-800);
+  --color-brand-900: var(--color-brand-900);
+
+  --color-sound-50: var(--color-sound-50);
+  --color-sound-100: var(--color-sound-100);
+  --color-sound-200: var(--color-sound-200);
+  --color-sound-300: var(--color-sound-300);
+  --color-sound-400: var(--color-sound-400);
+  --color-sound-500: var(--color-sound-500);
+  --color-sound-600: var(--color-sound-600);
+  --color-sound-700: var(--color-sound-700);
+  --color-sound-800: var(--color-sound-800);
+  --color-sound-900: var(--color-sound-900);
+
+  --color-slate-50: var(--color-slate-50);
+  --color-slate-100: var(--color-slate-100);
+  --color-slate-200: var(--color-slate-200);
+  --color-slate-300: var(--color-slate-300);
+  --color-slate-400: var(--color-slate-400);
+  --color-slate-500: var(--color-slate-500);
+  --color-slate-600: var(--color-slate-600);
+  --color-slate-700: var(--color-slate-700);
+  --color-slate-800: var(--color-slate-800);
+  --color-slate-900: var(--color-slate-900);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+}
+
+.prose-article :where(h2, h3) {
+  font-family: var(--font-heading), Georgia, serif;
+}
+
+.treeline-divider {
+  height: 4px;
+  background-image: linear-gradient(
+    120deg,
+    var(--color-brand-600) 0 20%,
+    var(--color-sound-500) 20% 40%,
+    var(--color-brand-600) 40% 60%,
+    var(--color-sound-500) 60% 80%,
+    var(--color-brand-600) 80% 100%
+  );
 }
