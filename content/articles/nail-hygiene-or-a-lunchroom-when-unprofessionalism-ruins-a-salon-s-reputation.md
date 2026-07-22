@@ -30,5 +30,3 @@ The incidents at Nail Pro expose two fatal flaws in the service industry:
 1. The Collapse of Professional Boundaries: Turning a beauty service area — which demands absolute cleanliness — into a "lunchroom" and eating directly over a customer's hands is a severe violation of both the user experience and basic health codes.
 
 2. The Disconnect Between Price and Value: When customers agree to pay premium prices ($100 for short acrylics, $55 for a gel manicure), they expect flawless results and a relaxing environment. Delivering poor technical quality in a cold atmosphere will instantly turn customers into a business's harshest critics on online review platforms.
-
-*Editor's note: Nail Pro is a fictional name used solely for training and illustrative purposes. This piece does not reference any real business or individual.*
