@@ -3,7 +3,7 @@ title: "The 'Pricing Trap' Trick at Beauty Salons: When a Lack of Transparency D
 slug: "the-pricing-trap-trick-at-beauty-salons-when-a-lack-of-transparency-destroys-customer-trust"
 excerpt: "A customer's pedicure bill jumped from $55 to $70 without warning, a reminder of how unauthorized upsells at local salons can quietly cost a business its most loyal customers."
 category: "beauty-wellness"
-date: "2026-07-10"
+date: "2026-05-10"
 coverImage: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=1600&auto=format&fit=crop"
 imageCredit: "Unsplash/Giorgio Trovato"
 ---
